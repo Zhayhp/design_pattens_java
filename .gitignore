@@ -22,7 +22,7 @@ target/
 *.ipr
 *.iml
 *.iws
-
+/lib
 # temp file
 
 *.log

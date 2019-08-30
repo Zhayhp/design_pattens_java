@@ -11,15 +11,7 @@ public class Geely {
 
     private ICourse iCourse;
 
-
-
     public void studyImoocCourse(){
         iCourse.studyCourse();
     }
-
-
-
-
-
-
 }
