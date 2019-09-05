@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 /**
  * Created by geely
+ * 饿汉式
  */
 public class HungrySingleton implements Serializable,Cloneable{
 

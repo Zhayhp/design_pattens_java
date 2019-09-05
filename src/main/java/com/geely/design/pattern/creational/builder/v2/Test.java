@@ -15,5 +15,8 @@ public class Test {
         Set<String> set = ImmutableSet.<String>builder().add("a").add("b").build();
 
         System.out.println(set);
+        Course.CourseBuilder courseBuilder = new Course.CourseBuilder();
+        Course course1 = new Course(courseBuilder);
+
     }
 }

@@ -2,6 +2,7 @@ package com.geely.design.pattern.creational.singleton;
 
 /**
  * Created by geely
+ * 枚举单例模式
  */
 public enum EnumInstance {
     INSTANCE{

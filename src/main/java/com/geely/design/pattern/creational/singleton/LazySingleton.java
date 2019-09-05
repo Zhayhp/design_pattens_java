@@ -2,6 +2,7 @@ package com.geely.design.pattern.creational.singleton;
 
 /**
  * Created by geely
+ * 懒汉式
  */
 public class LazySingleton {
     private static LazySingleton lazySingleton = null;

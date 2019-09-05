@@ -2,8 +2,10 @@ package com.geely.design.pattern.creational.singleton;
 
 /**
  * Created by geely
+ * 懒汉式双重检查
  */
 public class LazyDoubleCheckSingleton {
+    //volatile 避免重排序问题
     private volatile static LazyDoubleCheckSingleton lazyDoubleCheckSingleton = null;
     private LazyDoubleCheckSingleton(){
 

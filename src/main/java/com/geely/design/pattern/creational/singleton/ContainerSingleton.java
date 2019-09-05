@@ -7,6 +7,7 @@ import java.util.Map;
 
 /**
  * Created by geely
+ * 容器单例模式
  */
 public class ContainerSingleton {
 

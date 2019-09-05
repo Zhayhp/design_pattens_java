@@ -2,6 +2,7 @@ package com.geely.design.pattern.creational.singleton;
 
 /**
  * Created by geely
+ * 全局不唯一,线程唯一
  */
 public class ThreadLocalInstance {
     private static final ThreadLocal<ThreadLocalInstance> threadLocalInstanceThreadLocal
